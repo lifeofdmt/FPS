@@ -1,0 +1,20 @@
+# Database for schools
+Index | School Name | No of Branches | School Key | 
+
+
+For each branch manager I want to give the abilty to randomize and create branch keys
+# Database for branches
+Branch Key | Branch Number | Branch Index(same as school's index) |
+
+
+# Database for teachers
+Teacher's Name | Teacher's Image | Teacher's Branch | Teacher's Id (unique id + schools index) | Teacher's Grade | Teacher's Status |
+
+
+# Database for Students
+Student's Name | Student's Image | Student's Branch | Student's Id (unique id + schools index) | Student's Grade | Parent Id's |
+
+
+# Database for Parent
+Parent's Name | Parent's Image | Children Id's | Parent Id's (unique id) |
+
